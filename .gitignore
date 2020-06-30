@@ -17,6 +17,7 @@ develop-eggs
 .installed.cfg
 lib
 lib64
+**/.eggs/*
 
 # Installer logs
 pip-log.txt
@@ -36,3 +37,11 @@ docs/_build
 .mr.developer.cfg
 .project
 .pydevproject
+
+# vscode stuff
+**/*.code-workspace
+**/.vscode/*
+
+# jupyter notebook stuff
+**/.ipynb_checkpoints/*
+

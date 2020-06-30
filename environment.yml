@@ -1,0 +1,10 @@
+name: policeapi
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.6
+  - pytest
+  - pylint
+
