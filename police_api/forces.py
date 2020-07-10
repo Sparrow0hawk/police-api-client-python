@@ -68,9 +68,8 @@ class Force(Resource):
             ['facebook: http://www.facebook.com/leicspolice',
              'twitter: http://www.twitter.com/leicspolice',
              'youtube: http://www.youtube.com/leicspolice',
-             'rss: http://www.leics.police.uk/feeds/news/',
-             'telephone: ',
-             'flickr: http://www.flickr.com/photos/leicspolice-property']
+             'rss: https://www.leics.police.uk/news/leicestershire/news/GetNewsRss/',
+             'telephone: ']
 
     .. attribute:: neighbourhoods
 
