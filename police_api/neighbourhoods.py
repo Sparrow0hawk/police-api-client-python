@@ -106,7 +106,7 @@ class Neighbourhood(Resource):
             >>> print(neighbourhood.contact_details['email'])
             centralleicester.npa@leicestershire.pnn.police.uk
             >>> print(neighbourhood.contact_details['twitter'])
-            http://www.twitter.com/leicesterpolice
+            http://www.twitter.com/centralleicsNPA
 
     .. attribute:: officers
 
