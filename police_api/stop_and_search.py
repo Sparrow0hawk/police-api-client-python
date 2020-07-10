@@ -13,11 +13,11 @@ class Stop(SimpleResource):
     .. doctest::
 
         >>> from police_api import PoliceAPI
-        >>> api = PoliceAPI()
+        >>> api = PoliceAPI(timeout=30)
         >>> def sort_stops_by_date(unsorted_stops):
         ...     return(sorted(unsorted_stops, key=lambda s: s.datetime))
         >>> stops = sort_stops_by_date(
-        ...     api.get_stops_force('metropolitan', '2015-07')
+        ...     api.get_stops_force('metropolitan', '2018-07')
         ... )
 
     .. attribute:: age_range
@@ -28,7 +28,7 @@ class Stop(SimpleResource):
         .. doctest::
 
             >>> print(stops[0].age_range)
-            25-34
+            None
 
     .. attribute:: object_of_search
 
@@ -43,7 +43,7 @@ class Stop(SimpleResource):
         .. doctest::
 
             >>> print(stops[0].outcome)
-            Offender given drugs possession warning
+            A no further action disposal
 
     .. attribute:: outcome_linked_to_object_of_search
 
@@ -59,7 +59,7 @@ class Stop(SimpleResource):
         .. doctest::
 
             >>> print(stops[0].legislation)
-            Misuse of Drugs Act 1971 (section 23)
+            Police and Criminal Evidence Act 1984 (section 1)
 
     .. attribute:: type
 
@@ -105,7 +105,7 @@ class Stop(SimpleResource):
         .. doctest::
 
             >>> print(stops[0].self_defined_ethnicity)
-            Black or Black British - Any other Black ethnic background (B9)
+            Other ethnic group - Not stated
 
     .. attribute:: officer_defined_ethnicity
 
@@ -139,7 +139,7 @@ class Stop(SimpleResource):
         .. doctest::
 
             >>> print(stops[0].datetime.isoformat())
-            2015-07-01T00:05:00
+            2018-06-30T23:01:00+00:00
 
     .. attribute:: location
 
