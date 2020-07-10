@@ -21,9 +21,9 @@ class Neighbourhood(Resource):
         >>> from police_api import PoliceAPI
         >>> api = PoliceAPI()
         >>> force = api.get_force('leicestershire')
-        >>> neighbourhood = force.get_neighbourhood('C04')
+        >>> neighbourhood = force.get_neighbourhood('NC04')
         >>> print(neighbourhood.name)
-        City Centre neighbourhood
+        City Centre
 
     .. attribute:: id
 
