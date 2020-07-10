@@ -220,8 +220,8 @@ class Neighbourhood(Resource):
 
             >>> from police_api import PoliceAPI
             >>> api = PoliceAPI()
-            >>> force = api.get_force('leicestershire')
-            >>> neighbourhood = force.get_neighbourhood('C04')
+            >>> force = api.get_force('avon-and-somerset')
+            >>> neighbourhood = force.get_neighbourhood('AN012')
             >>> event = neighbourhood.events[0]
 
         .. attribute:: neighbourhood
