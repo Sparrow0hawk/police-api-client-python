@@ -195,10 +195,8 @@ class Neighbourhood(Resource):
 
             .. doctest::
 
-                >>> print(officer.contact_details['email'])
-                elmbridge@surrey.pnn.police.uk
-                >>> print(officer.contact_details['telephone'])
-                101
+                >>> print(officer.contact_details['facebook'])
+                http://www.facebook.com/SurreyPolice/
 
         .. _neighbourhood-team:
             https://data.police.uk/docs/method/neighbourhood-team/
