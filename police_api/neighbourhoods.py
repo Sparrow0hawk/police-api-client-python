@@ -65,9 +65,9 @@ class Neighbourhood(Resource):
         .. doctest::
 
             >>> print(neighbourhood.centre['latitude'])
-            52.6268
+            52.6389
             >>> print(neighbourhood.centre['longitude'])
-            -1.12621
+            -1.13619
 
     .. attribute:: links
 
