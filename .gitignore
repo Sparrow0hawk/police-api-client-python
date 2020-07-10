@@ -45,3 +45,5 @@ docs/_build
 # jupyter notebook stuff
 **/.ipynb_checkpoints/*
 
+# coverage 
+**/htmlcov/*
