@@ -56,8 +56,8 @@ For more advanced usage, see the documentation_.
 .. _Police API: https://data.police.uk/docs/
 .. _documentation: http://police-api-client-python.readthedocs.org
 
-.. |travis_badge| .. image:: https://travis-ci.com/Sparrow0hawk/police-api-client-python.svg?branch=develop
-                     :target: https://travis-ci.com/Sparrow0hawk/police-api-client-python
-.. |codecov|      .. image:: https://codecov.io/gh/Sparrow0hawk/police-api-client-python/branch/develop/graph/badge.svg
-                     :target: https://codecov.io/gh/Sparrow0hawk/police-api-client-python
+.. |travis_badge| image:: https://travis-ci.com/Sparrow0hawk/police-api-client-python.svg?branch=develop
+    :target: https://travis-ci.com/Sparrow0hawk/police-api-client-python
+.. |codecov| image:: https://codecov.io/gh/Sparrow0hawk/police-api-client-python/branch/develop/graph/badge.svg
+    :target: https://codecov.io/gh/Sparrow0hawk/police-api-client-python
 
