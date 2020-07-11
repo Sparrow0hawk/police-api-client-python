@@ -1,4 +1,4 @@
-Police API Client (Python) |travis_badge|codecov|
+Police API Client (Python) |travis_badge| |codecov|
 =========================================
 
 A Python client for the `Police API`_. Supports Python 2.7, 3.4, 3.5, 3.6, 3.7 and
